@@ -58,13 +58,20 @@ $(document).ready(function() {
     "Perpetually jumpy",
     "Insufferably kind",
     "Earnest",
-    "Disciplined"
+    "Disciplined",
+    "Grizzled veteran",
+    "Absolutely insane",
   );
   var blood = new Array(
     "muggleborn", 
     "pureblood", 
     "half-blood", 
-    "squib"
+    "squib",
+    "indifferent blood lineage",
+    "lesbian",
+    "pansexual",
+    "bisexual",
+    "transgender",
   );
   var job = new Array(
     "Auror", 
@@ -143,7 +150,10 @@ $(document).ready(function() {
     "mandrake farmer",
     "grocer",
     "university student",
-    "Quidditch coach"
+    "Quidditch coach",
+    "Auror trainee",
+    "terrorist",
+    "gillyweed dealer",
   );
   var from = new Array(
     "large family", 
@@ -182,6 +192,12 @@ $(document).ready(function() {
     "a small town in the Swiss Alps",
     "a picturesque seaside town",
     "New York City",
+    "a long line of completely sane criminals",
+    "perpetually concerned family",
+    "a thicket",
+    "a traditional Korean family",
+    "a reputable law consortium",
+    "a strict family",
   );
   var fact = new Array(
     "can't seem to shut up", 
@@ -230,7 +246,16 @@ $(document).ready(function() {
     "parties like there's no tomorrow",
     "is a tea connosieur",
     "is covered in floral tattoos",
-    "has a little bird living under their hat"
+    "has a little bird living under their hat",
+    "wishes nothing more than to avoid the Ministry and find a partner in petty, low-risk crime",
+    "is about as deadly as a cranberry muffin",
+    "has never minded his own business in his life",
+    "always seems tired",
+    "wears sunglasses indoor",
+    "will try to murder you",
+    "wears mesh shirts",
+    "is chasing some kind of meaning in life",
+    "known for absolutely garish sweaters",
   );
   
   randomTrait = trait[Math.floor( Math.random() * trait.length)];
