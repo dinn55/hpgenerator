@@ -167,7 +167,7 @@ $(document).ready(function() {
     "from a haunted family",
     "a long line of frauds and criminals",
     "who knows where",
-    "defunct circus caravan",
+    "a defunct circus caravan",
     "family of insufferable blowhards",
     "a dragon ranch",
     "a poor background",
@@ -202,7 +202,7 @@ $(document).ready(function() {
     "has invented a dozen spells",
     "believes they were famous in a past life",
     "is haunted by a ghost",
-    "obsessed with death",
+    "is obsessed with death",
     "talks to animals",
     "refers to themselves in the third person",
     "started their own business",
@@ -229,7 +229,7 @@ $(document).ready(function() {
     "plays in a band",
     "parties like there's no tomorrow",
     "is a tea connosieur",
-    "covered in floral tattoos",
+    "is covered in floral tattoos",
     "has a little bird living under their hat"
   );
   
