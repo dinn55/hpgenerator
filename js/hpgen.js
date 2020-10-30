@@ -309,7 +309,7 @@ $(document).ready(function() {
     "will try to murder you",
     "often wears mesh shirts",
     "is chasing some kind of meaning in life",
-    "known for absolutely garish sweaters",
+    "is known for absolutely garish sweaters",
     "dabbles in death",
     "has a false eye",
     "lost a limb in a Splinching",
