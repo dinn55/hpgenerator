@@ -85,20 +85,21 @@ $(document).ready(function() {
     "Unsettlingly handsome",
   );
   var blood = new Array(
-    "",
+    " ",
     "muggleborn", 
     "pureblood", 
     "half-blood", 
     "squib",
     );
   var quality = new Array(
-    "",
+    " ",
+    " ",
+    " ",
     "lesbian",
     "pansexual",
     "bisexual",
     "transgender",
     "asexual",
-    "demisexual",
     "non-binary",
     "gay",
     "queer",
@@ -199,6 +200,9 @@ $(document).ready(function() {
     "Seer",
     "vampire rights activist",
     "farmer",
+    "author",
+    "travel writer",
+    "confectioner",
   );
   var from = new Array(
     "a large family", 
@@ -239,7 +243,6 @@ $(document).ready(function() {
     "New York City",
     "a long line of completely sane criminals",
     "perpetually concerned family",
-    "a thicket",
     "a traditional Korean family",
     "a reputable law consortium",
     "a strict family",
