@@ -61,6 +61,17 @@ $(document).ready(function() {
     "Disciplined",
     "Grizzled veteran",
     "Absolutely insane",
+    "Shaky",
+    "Nurturing",
+    "Pushover",
+    "Good and pure",
+    "Chaotic",
+    "Stuff-shirt",
+    "Adorable",
+    "Melancholy",
+    "Resiliant",
+    "Haunted",
+    "Eager",
   );
   var blood = new Array(
     "muggleborn", 
@@ -68,10 +79,19 @@ $(document).ready(function() {
     "half-blood", 
     "squib",
     "indifferent blood lineage",
+    );
+  var quality = new Array(
     "lesbian",
     "pansexual",
     "bisexual",
     "transgender",
+    "asexual",
+    "demisexual",
+    "non-binary",
+    "gay",
+    "queer",
+    "feminine",
+    "masculine",
   );
   var job = new Array(
     "Auror", 
@@ -154,6 +174,13 @@ $(document).ready(function() {
     "Auror trainee",
     "terrorist",
     "gillyweed dealer",
+    "owl keeper",
+    "broomstick maker",
+    "spell inventor",
+    "coroner/necromancer",
+    "oracle",
+    "Seer",
+    "vampire rights activist",
   );
   var from = new Array(
     "large family", 
@@ -198,6 +225,9 @@ $(document).ready(function() {
     "a traditional Korean family",
     "a reputable law consortium",
     "a strict family",
+    "nowhere in particular",
+    "a horrible family",
+    "a long line of Aurors",
   );
   var fact = new Array(
     "can't seem to shut up", 
@@ -237,7 +267,7 @@ $(document).ready(function() {
     "learned why it's bad to meet your hero",
     "had a near death experience",
     "is a Metamorphmagus",
-    "sings all the time",
+    "breaks into song at the drop of a hat",
     "is always falling in love",
     "hates their father",
     "has a proper fan club",
@@ -256,16 +286,25 @@ $(document).ready(function() {
     "wears mesh shirts",
     "is chasing some kind of meaning in life",
     "known for absolutely garish sweaters",
+    "dabbles in death",
+    "has a false eye",
+    "lost a limb in a Splinching",
+    "will never go back home",
+    "is always up for a drink",
+    "dreams of being famous on the WWN",
+    "bartered away something important",
   );
   
   randomTrait = trait[Math.floor( Math.random() * trait.length)];
   randomBlood = blood[Math.floor( Math.random() * blood.length)];
+  randomQuality = quality[Math.floor( Math.random() * quality.length)];
   randomJob = job[Math.floor( Math.random() * job.length)];
   randomFrom = from[Math.floor( Math.random() * from.length)];
   randomFact = fact[Math.floor( Math.random() * fact.length)];
   
   $('#trait').text(randomTrait);
   $('#blood').text(randomBlood);
+  $('#quality').text(randomQuality);
   $('#job').text(randomJob);
   $('#from').text(randomFrom);
   $('#fact').text(randomFact);
