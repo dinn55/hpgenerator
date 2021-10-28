@@ -207,6 +207,9 @@ $(document).ready(function() {
     "author",
     "travel writer",
     "confectioner",
+    "restreanteur",
+    "actor",
+    "monk",
   );
   var from = new Array(
     "a large family", 
