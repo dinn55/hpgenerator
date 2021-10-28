@@ -354,6 +354,9 @@ $(document).ready(function() {
     "saw a horrible murder",
     "basically raised their siblings",
     "tutors Gobbledegook",
+    "likes crossword puzzles",
+    "is really good at chess",
+    "has stalked the Minister of Magic",
   );
   
   randomTrait = trait[Math.floor( Math.random() * trait.length)];
