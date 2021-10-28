@@ -262,6 +262,9 @@ $(document).ready(function() {
     "a big loving family",
     "beautiful Lancashire",
     "an actual castle",
+    "nowhere good",
+    "a diaster of their own making",
+    "Romania",
   );
   var fact = new Array(
     "can't seem to shut up", 
