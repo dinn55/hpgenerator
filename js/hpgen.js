@@ -83,6 +83,9 @@ $(document).ready(function() {
     "Artistic",
     "Jaded",
     "Unsettlingly handsome",
+    "Unfriendly",
+    "Effusive",
+    "Ostentatious"
   );
   var blood = new Array(
     " ",
