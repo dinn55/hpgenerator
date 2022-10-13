@@ -12,8 +12,10 @@
     <style>
       @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
       html { height: 100%; }
-      body { height: 100%; font-family: Rubik; background: #333; }
+      body { height: 100%; font-family: Rubik; background: #444; }
       .container { max-width: 800px; }
+      span.attribute { color: inherit; cursor: pointer; border-bottom: 1px dotted tomato; }
+      span.attribute:hover { color: tomato; }
     </style>
 
   </head> 
@@ -21,10 +23,14 @@
   <body>
     <div class="section has-text-white">
       <div class="container">
-        <h1 class="title has-text-white has-text-weight-normal">
-          <span id="trait"></span> <span id="quality"></span> <span id="blood"></span> <span id="job"></span> from <span id="from"></span>, who <span id="fact"></span>.
-        </h1>
-        <button class="button is-light" type="button" id="refresh">Refresh for another</button>  
+        <h1 class="title is-1 has-text-white has-text-weight-normal">Harry Potter character generator</h1>
+        <div class="box has-text-white has-background-dark">
+          <p class="title is-4 has-text-white has-text-weight-normal">
+            <span id="trait"></span> <span id="quality"></span> <span id="blood"></span> <span id="job"></span> from <span id="from"></span>, who <span id="fact"></span>.
+          </p>
+        </div>
+        <p style="margin-bottom: 1rem;">Click an individual trait for a new one, or...</p>
+        <button class="button is-light" type="button" id="refresh">Refresh the page for something entirely different.</button> 
       </div>
     </div>
   </body> 
