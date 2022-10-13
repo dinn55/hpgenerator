@@ -373,6 +373,31 @@ $(document).ready(function() {
   $('#from').text(randomFrom);
   $('#fact').text(randomFact);
 
+  $('#trait').click(function() {
+    randomTrait = trait[Math.floor( Math.random() * trait.length)];
+    $('#trait').text(randomTrait);
+  });
+  $('#blood').click(function() {
+    randomBlood = blood[Math.floor( Math.random() * blood.length)];
+    $('#blood').text(randomBlood);
+  });
+  $('#quality').click(function() {
+    randomQuality = quality[Math.floor( Math.random() * quality.length)];
+    $('#quality').text(randomQuality);
+  });
+  $('#species').click(function() {
+    randomSpecies = species[Math.floor( Math.random() * species.length)];
+    $('#species').text(randomSpecies);
+  });
+  $('#job').click(function() {
+    randomJob = job[Math.floor( Math.random() * job.length)];
+    $('#job').text(randomJob);
+  });
+  $('#fact').click(function() {
+    randomFact = fact[Math.floor( Math.random() * fact.length)];
+    $('#fact').text(randomFact);
+  });
+
   $("#refresh").click(function(){
     location.reload(true);
   });
