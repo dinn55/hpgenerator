@@ -252,7 +252,7 @@ $(document).ready(function() {
     "a picturesque seaside town",
     "New York City",
     "a long line of completely sane criminals",
-    "perpetually concerned family",
+    "an endlessly concerned family",
     "a traditional Korean family",
     "a strict family",
     "nowhere in particular",
