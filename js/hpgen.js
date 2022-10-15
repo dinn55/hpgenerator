@@ -393,6 +393,10 @@ $(document).ready(function() {
     randomJob = job[Math.floor( Math.random() * job.length)];
     $('#job').text(randomJob);
   });
+  $('#from').click(function() {
+    randomFrom = from[Math.floor( Math.random() * from.length)];
+    $('#from').text(randomFrom);
+  });
   $('#fact').click(function() {
     randomFact = fact[Math.floor( Math.random() * fact.length)];
     $('#fact').text(randomFact);
